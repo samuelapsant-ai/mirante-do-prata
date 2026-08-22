@@ -28,7 +28,7 @@ import {
 } from "lucide-react";
 import "./casa-mirante.css";
 
-const contactNumber = "5521981487000";
+const contactNumber = "5524978353371";
 const whatsappUrl = `https://wa.me/${contactNumber}`;
 
 const navItems = [
@@ -231,7 +231,7 @@ export default function CasaMiranteDemo() {
           <p className="cm-kicker">CONSULTE SUA ESTADIA</p>
           <h2>Escolha suas datas.<br /><em>O descanso começa aqui.</em></h2>
           <p>Envie os detalhes da sua viagem e a Casa Mirante responde pelo WhatsApp com disponibilidade e próximos passos.</p>
-          <div className="cm-inquiry__contact"><Phone size={17} /><a href={`https://wa.me/${contactNumber}`} target="_blank" rel="noreferrer">+55 21 98148-7000</a></div>
+          <div className="cm-inquiry__contact"><Phone size={17} /><a href={`https://wa.me/${contactNumber}`} target="_blank" rel="noreferrer">+55 24 97835-3371</a></div>
         </div>
         <form className="cm-form cm-reveal" onSubmit={handleInquiry}>
           <label>Seu nome<input name="name" required placeholder="Como podemos te chamar?" /></label>
