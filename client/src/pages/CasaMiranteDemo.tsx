@@ -54,7 +54,7 @@ const highlights = [
 function CasaMark() {
   return (
     <a className="cm-mark" href="#inicio" aria-label="Casa Mirante do Prata — início">
-      <img src="/manus-storage/casa-mirante-mark_76cc9af7.png" alt="" aria-hidden="true" />
+      <img src="/assets/casa-mirante-mark.png" alt="" aria-hidden="true" />
       <span>
         <strong>Casa Mirante</strong>
         <small>do Prata</small>
@@ -121,9 +121,9 @@ export default function CasaMiranteDemo() {
       </header>
 
       <section className="cm-hero" aria-labelledby="cm-hero-title">
-        <img className="cm-hero__image" src="/manus-storage/casa-mirante-hero_6948b8c6.webp" alt="Ofurô da Casa Mirante do Prata com a serra ao fundo" />
+        <img className="cm-hero__image" src="/assets/casa-mirante-hero.jpg" alt="Ofurô da Casa Mirante do Prata com a serra ao fundo" />
         <div className="cm-hero__scrim" />
-        <img className="cm-hero__art" src="/manus-storage/casa-mirante-topographic_5927d50c.png" alt="" aria-hidden="true" />
+        <img className="cm-hero__art" src="/assets/casa-mirante-topographic.png" alt="" aria-hidden="true" />
         <div className="cm-hero__copy">
           <p className="cm-eyebrow"><Sparkles size={13} /> VALE DAS VIDEIRAS · ARARAS, PETRÓPOLIS</p>
           <h1 id="cm-hero-title">Quando a serra pede pausa,<br /><em>a casa abre as portas.</em></h1>
@@ -167,7 +167,7 @@ export default function CasaMiranteDemo() {
 
       <section className="cm-experience" id="experiencias">
         <div className="cm-experience__image cm-reveal">
-          <img src="/manus-storage/casa-mirante-mountains_8f4594a1.webp" alt="Vista das montanhas a partir da Casa Mirante do Prata" />
+          <img src="/assets/casa-mirante-mountains.jpg" alt="Vista das montanhas a partir da Casa Mirante do Prata" />
           <span>O verde muda de cor o dia inteiro.</span>
         </div>
         <div className="cm-experience__content cm-reveal">
@@ -189,7 +189,7 @@ export default function CasaMiranteDemo() {
           <a className="cm-button cm-button--dark" href="#disponibilidade">Planejar uma estadia <ArrowDownRight size={17} /></a>
         </div>
         <div className="cm-feature__visual cm-reveal">
-          <img src="/manus-storage/casa-mirante-arch-detail_39297c27.png" alt="" aria-hidden="true" />
+          <img src="/assets/casa-mirante-arch-detail.png" alt="" aria-hidden="true" />
           <div className="cm-feature__quote"><span>“</span><p>O descanso começa antes de chegar: começa quando a viagem já tem um destino.</p></div>
         </div>
       </section>
@@ -200,11 +200,11 @@ export default function CasaMiranteDemo() {
           <p>Um pouco da casa, do verde e das pausas que esperam por você no Vale das Videiras.</p>
         </div>
         <div className="cm-gallery__grid">
-          <figure className="cm-gallery__main cm-reveal"><img src="/manus-storage/casa-mirante-hero_6948b8c6.webp" alt="Área de hidromassagem com vista para montanhas" /><figcaption>Entre água quente e serra.</figcaption></figure>
-          <figure className="cm-gallery__mountain cm-reveal"><img src="/manus-storage/casa-mirante-mountains_8f4594a1.webp" alt="Paisagem montanhosa vista da Casa Mirante" /><figcaption>Janelas para o vale.</figcaption></figure>
+          <figure className="cm-gallery__main cm-reveal"><img src="/assets/casa-mirante-hero.jpg" alt="Área de hidromassagem com vista para montanhas" /><figcaption>Entre água quente e serra.</figcaption></figure>
+          <figure className="cm-gallery__mountain cm-reveal"><img src="/assets/casa-mirante-mountains.jpg" alt="Paisagem montanhosa vista da Casa Mirante" /><figcaption>Janelas para o vale.</figcaption></figure>
           <div className="cm-gallery__note cm-reveal"><span>CASA MIRANTE<br />DO PRATA</span><p>A casa vira o cenário. O resto pode esperar.</p><i>Araras · Petrópolis, RJ</i></div>
-          <figure className="cm-gallery__suite cm-reveal"><img src="/manus-storage/casa-mirante-suite_a63b9f04.webp" alt="Suíte da Casa Mirante do Prata" /><figcaption>Quartos para descansar com calma.</figcaption></figure>
-          <figure className="cm-gallery__facade cm-reveal"><img src="/manus-storage/casa-mirante-facade_6530c625.webp" alt="Fachada externa da Casa Mirante do Prata" /></figure>
+          <figure className="cm-gallery__suite cm-reveal"><img src="/assets/casa-mirante-suite.jpg" alt="Suíte da Casa Mirante do Prata" /><figcaption>Quartos para descansar com calma.</figcaption></figure>
+          <figure className="cm-gallery__facade cm-reveal"><img src="/assets/casa-mirante-facade.jpg" alt="Fachada externa da Casa Mirante do Prata" /></figure>
         </div>
         <p className="cm-gallery__note-small">Prévia demonstrativa com fotos públicas encaminhadas pelo proprietário. A seleção final de fotos será confirmada antes da publicação oficial.</p>
       </section>
@@ -216,7 +216,7 @@ export default function CasaMiranteDemo() {
       </section>
 
       <section className="cm-location" id="localizacao">
-        <img src="/manus-storage/casa-mirante-facade_6530c625.webp" alt="Fachada da Casa Mirante entre árvores" />
+        <img src="/assets/casa-mirante-facade.jpg" alt="Fachada da Casa Mirante entre árvores" />
         <div className="cm-location__wash" />
         <div className="cm-location__content cm-section cm-reveal">
           <p className="cm-kicker cm-kicker--light">VALE DAS VIDEIRAS</p>

@@ -30,4 +30,4 @@ pnpm build
 
 Os fatos e fotos usados na demonstração foram verificados em páginas públicas encaminhadas pelo proprietário. Antes da publicação definitiva, confirme a seleção final de imagens, telefone de reservas, texto institucional, políticas e qualquer integração de calendário.
 
-As imagens referenciadas em `/manus-storage/` pertencem ao ambiente de prévia. Para um deploy externo independente, substitua-as por ativos finais autorizados e hospedados pelo cliente.
+As imagens da demonstração estão na pasta `client/public/assets/` e são incluídas automaticamente no build do Netlify. Antes da publicação definitiva, substitua ou confirme esses ativos com os arquivos finais aprovados pelo cliente.
