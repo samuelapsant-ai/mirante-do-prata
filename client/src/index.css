@@ -1,0 +1,7 @@
+/* STYLE NOTE — Foundation for Casa Mirante / “Refúgio Topográfico”.
+   Keep global chrome quiet so the dedicated page stylesheet owns the editorial rhythm. */
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, input, select, textarea { font: inherit; }
